@@ -9,19 +9,19 @@ import '../styles/core.scss'
 //
 // CoreLayout is a pure function of it's props, so we can
 // define it with a plain javascript function...
-function CoreLayout ({ children }) {
+function LoginLayout ({ children }) {
   return (
     <div className='page-container'>
       <div className='view-container'>
-      Core Layout
+      LoginLayout Layout
         {children}
       </div>
     </div>
   )
 }
 
-CoreLayout.propTypes = {
+LoginLayout.propTypes = {
   children: React.PropTypes.element
 }
 
-export default CoreLayout
+export default LoginLayout
